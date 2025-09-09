@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "http://notesapp-backend.railway.internal";
 
 function App() {
   const [notes, setNotes] = useState([]);
